@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,100&display=swap');
+* {
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+ font-size: 10px;
+ font-family:'montserrat',sans-serif;
+}
+body{
+
+background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../Images/2.jpg');
+background-size: cover;
+background-position: center;
+}
+
+.sec-1{
+    max-width: 350px;
+    border: 2px solid whitesmoke;
+    margin: 10% auto 0;
+}
+
+.radio-btn{
+    margin: 0 20px;
+    
+}
+
+.radio-btn .btn{
+    margin: 20px 10px 20px 10px;
+    box-shadow: none;
+}
+.radio-btn .btn::after{
+
+    content:'';
+    height: 15px;
+    width: 15px;
+    top: -2px;
+    left:-1px;
+    background-color: rgb(25, 131, 173);
+    position: relative;
+    display: inline-block;
+    border:3px solid rgb(25, 131, 173);
+    visibility: visible;
+    border-radius: 50%;
+}
+.radio-btn .btn:checked::after{
+    content:'';
+    background-color: whitesmoke;
+    transition:0.5s ;
+}
+.radio-btn span{
+    color: whitesmoke;
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    font-weight: 500;
+}
+
+.grp-1{
+    padding: 0 20px 20px;
+
+}
+
+.grp-1 label{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+    color:white;
+    font-weight: bold;
+}
+input::placeholder{
+    color:rgb(199, 184, 184) !important;
+}
+
+
+.grp-2{
+
+    width: 151px;
+    display: inline-block;
+}
+
+
+.form-control{
+    font-size: 12px !important;
+    border-radius: 0 !important;
+    color: white !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    
+}
+
+
+.custom-select{
+    padding: 0 20px 6px !important;
+    padding-top: 2px !important;
+    width: 151px !important;
+    display: inline-block !important;
+    color: rgb(150, 140, 140)!important;
+    font-size: 12px!important;
+    border: 1px solid #ced4da!important;
+    box-shadow: none!important;
+    border-radius: 0!important;
+    background: transparent!important;
+
+}
+
+.custom-select option{
+    color: teal !important;
+}
+
+.flights{
+    width: 151px !important;
+    display: inline-block !important;
+    font-size: 12px !important;
+    border: 1px solid #ced4da!important;
+    box-shadow: none!important;
+    border-radius: 0!important;
+    background: transparent!important;
+}
+
+.flights:hover{
+    background-color: whitesmoke !important;
+    color: rgb(85, 80, 80) !important;
+    transition: 0.5s;
+}
+
+a{
+    text-decoration: none;
+  }
+  .sticky-section{
+    overflow:hidden;
+    background-color:#09689E; 
+    margin-bottom:50px;
+    width:100%; 
+    color:white; 
+  }
+  
+  nav a{
+    float:right;
+    text-decoration:none;
+    color:white;
+    font-size:18px; 
+    padding: 20px 30px; 
+    display:inline-block; 
+    transition: all 0.5s ease 0s;
+  }
+  #logo{
+    font-size:20px;  
+    font-weight:bold;
+    float:left;
+    padding: 15px 15px;
+  }
+
+ nav a:hover{
+    background-color:#002e5b; 
+    color:wheat; 
+  }
